@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (3.5.0)
+  - Crashlytics (3.8.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.8)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - MBProgressHUD (0.9.2)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.5.0)
+  - Crashlytics (~> 3.3)
+  - Fabric
+  - MagicalRecord (~> 2.3)
+  - MBProgressHUD (~> 0.9)
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: b70a7352335f8ea5babd0a923eb7e8eacc67b877
+  Crashlytics: 8601d9c74a4c4d28f3e7f408bf4c0e490c70e8b4
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: 59e6c8dfd53a7c0858110f62810f4dfe80948f64
+
+COCOAPODS: 1.0.1
