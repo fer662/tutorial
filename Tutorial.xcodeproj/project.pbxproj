@@ -14,6 +14,9 @@
 		C54C4F0B1D8354640003CBBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54C4F0A1D8354640003CBBE /* Assets.xcassets */; };
 		C54C4F0E1D8354640003CBBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54C4F0C1D8354640003CBBE /* LaunchScreen.storyboard */; };
 		C54C4F161D83566C0003CBBE /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C4F151D83566C0003CBBE /* Client.swift */; };
+		C54C4F181D835F1D0003CBBE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C4F171D835F1D0003CBBE /* Product.swift */; };
+		C54C4F1A1D83626E0003CBBE /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C4F191D83626E0003CBBE /* ProductTableViewCell.swift */; };
+		C54C4F1C1D8364E30003CBBE /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54C4F1B1D8364E30003CBBE /* ProductViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		C54C4F0D1D8354640003CBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C54C4F0F1D8354640003CBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C54C4F151D83566C0003CBBE /* Client.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		C54C4F171D835F1D0003CBBE /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C54C4F191D83626E0003CBBE /* ProductTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		C54C4F1B1D8364E30003CBBE /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		E6694521E1733E648A2AE192 /* Pods-Tutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tutorial/Pods-Tutorial.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,10 +81,13 @@
 				C54C4F031D8354640003CBBE /* AppDelegate.swift */,
 				C54C4F151D83566C0003CBBE /* Client.swift */,
 				C54C4F051D8354640003CBBE /* ViewController.swift */,
+				C54C4F1B1D8364E30003CBBE /* ProductViewController.swift */,
+				C54C4F191D83626E0003CBBE /* ProductTableViewCell.swift */,
 				C54C4F071D8354640003CBBE /* Main.storyboard */,
 				C54C4F0A1D8354640003CBBE /* Assets.xcassets */,
 				C54C4F0C1D8354640003CBBE /* LaunchScreen.storyboard */,
 				C54C4F0F1D8354640003CBBE /* Info.plist */,
+				C54C4F171D835F1D0003CBBE /* Product.swift */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -213,7 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C54C4F1C1D8364E30003CBBE /* ProductViewController.swift in Sources */,
 				C54C4F061D8354640003CBBE /* ViewController.swift in Sources */,
+				C54C4F181D835F1D0003CBBE /* Product.swift in Sources */,
+				C54C4F1A1D83626E0003CBBE /* ProductTableViewCell.swift in Sources */,
 				C54C4F041D8354640003CBBE /* AppDelegate.swift in Sources */,
 				C54C4F161D83566C0003CBBE /* Client.swift in Sources */,
 			);

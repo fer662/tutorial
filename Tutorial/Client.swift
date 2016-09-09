@@ -75,12 +75,19 @@ class Client {
         return NSError(domain: "FotoSprintErrorDomain", code: 1, userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Unknown error", comment: "Unknown API error")])
     }*/
     
-    func getPosts(completion: (json: JSON) -> Void ) {
+    func getPosts(completion: (products: [Product]) -> Void ) {
         Alamofire.request(Router.Posts).validate().responseJSON { (response) in
             switch response.result {
             case .Success(let data):
                 let json = JSON(data)
-                completion(json: json)
+                
+                var products: [Product] = []
+                
+                for productItem in json.arrayValue {
+                    products.append(Product.fromJSON(productItem))
+                }
+                
+                completion(products: products)
                 break
             case .Failure:
                 break
